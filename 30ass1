@@ -1,0 +1,15 @@
+n=int(input())
+l=list(map(int,input().split()))
+m=[]
+k=0
+x=[]
+for i in l:
+    if i not in m:
+        m.append(i)
+    else:
+        x.append(i)
+print(x)
+for i in x:
+        k=k+1
+print(k)
+    
